@@ -1,7 +1,9 @@
 language: c
 
 sudo: false
-
+arch: 
+    - amd64
+    - arm64
 env:
   global:
     - CONDA_DEPENDENCIES="pytest pytest-cov numpy astropy"
